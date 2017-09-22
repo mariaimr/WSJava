@@ -22,12 +22,7 @@ public class LeerPropiedades {
     public final static String PROPIEDADES_DATABASE_USER = "conexion.user";
     public final static String PROPIEDADES_DATABASE_PASSWORD = "conexion.password";
 
-    public final static String PROPS_INFO_ACADEMICA = "ws.consultainformacionacademicamares";
-
-    public final static String PROPS_MATERIA_ESTUDIANTE = "ws.consultamateriasestudiantemares";
-    public final static String PROPS_NOTA_PARCIAL_EST = "ws.consultarnotaparcialestudiantemares";
-    public final static String PROPS_EST_PUEDE_VER_NOTA_CURSO = "ws.estudiantepuedevernotascursomares";
-    public final static String PROPS_VALIDAR_USER_X_CN = "ws.validarusuariooidxcn";
+    public final static String PROPS_FACULTADES = "ws.consultafacultadesmares";
 
     public LeerPropiedades(String propiedadesNombre) {
         try {
